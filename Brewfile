@@ -54,12 +54,16 @@ cask "spotify"
 cask "tableplus"
 cask "visual-studio-code"
 
-mas '1Password', id: 1333542190
+mas '1Password 7 - Password Manager', id: 1333542190
+mas '1Password for Safari', id: 1569813296
 mas 'Things', id: 904280696
 mas 'Xcode', id: 497799835
 mas 'Flow', id: 1423210932
 mas 'TestFlight', id: 899247664
 mas 'Pixelmator Pro', id: 1289583905
+mas 'Save to Pocket', id: 1477385213
+mas 'Userscripts', id: 1463298887
+mas 'JSON Peep for Safari', id: 1458969831
 
 vscode "bierner.markdown-mermaid"
 vscode "gimenete.github-linker"
