@@ -42,8 +42,6 @@ brew "modularml/packages/modular"
 brew "mongodb/brew/mongodb-database-tools"
 brew "teamookla/speedtest/speedtest"
 
-system "xcode-select --install || true"
-
 cask "battle-net"
 cask "chatgpt"
 cask "cleanshot"
