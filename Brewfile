@@ -1,7 +1,4 @@
 tap "elastic/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "modularml/packages"
 tap "mongodb/brew"
