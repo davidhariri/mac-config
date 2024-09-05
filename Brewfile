@@ -12,35 +12,45 @@ brew "gh"
 brew "git"
 brew "httpie"
 brew "libheif"
-brew "node"
 brew "mas"
-brew "mongodb-community@7.0"
 brew "nvm"
-brew "ollama", restart_service: true
 brew "openjdk"
-brew "opensearch", restart_service: true
-brew "pnpm"
-brew "postgresql@14", restart_service: true
-brew "pyenv"
-brew "pyenv-virtualenv"
-brew "python"
-brew "rabbitmq", restart_service: true
-brew "redis", restart_service: true
 brew "saml2aws"
 brew "semgrep"
 brew "zlib"
 brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
+
+# Services
+brew "opensearch", restart_service: true
+brew "ollama", restart_service: true
+brew "mongodb-community@7.0"
+brew "postgresql@14", restart_service: true
+brew "rabbitmq", restart_service: true
+brew "redis", restart_service: true
+brew "elastic/tap/elasticsearch-full", restart_service: true
+
+# JavaScript Tools
+brew "node"
+brew "pnpm"
+
+# Python
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "python"
+brew "poetry"
 brew "uv"
 brew "ruff"
 
+# Applications
 cask "arc"
 cask "battle-net"
 cask "chatgpt"
 cask "cleanshot"
 cask "cloudflare-warp"
 cask "couleurs"
+cask "cursor"
 cask "discord"
 cask "docker"
 cask "mimestream"
@@ -67,6 +77,7 @@ mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
 
+# Editor Extensions
 vscode "bierner.markdown-mermaid"
 vscode "gimenete.github-linker"
 vscode "github.copilot"
