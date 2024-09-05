@@ -66,6 +66,8 @@ cask "slack"
 cask "rectangle"
 cask "spotify"
 cask "tableplus"
+cask "sketch"
+cask "screen-studio"
 
 mas '1Password for Safari', id: 1569813296
 mas 'Things', id: 904280696
