@@ -1,6 +1,5 @@
 tap "elastic/tap"
 tap "homebrew/services"
-tap "modularml/packages"
 tap "mongodb/brew"
 tap "teamookla/speedtest"
 
@@ -17,7 +16,6 @@ brew "node"
 brew "mas"
 brew "mongodb-community@7.0"
 brew "nvm"
-brew "oh-my-zsh"
 brew "ollama", restart_service: true
 brew "openjdk"
 brew "opensearch", restart_service: true
@@ -32,9 +30,6 @@ brew "saml2aws"
 brew "semgrep"
 brew "zlib"
 brew "zsh"
-brew "heroku/brew/heroku"
-brew "modularml/packages/modular"
-brew "mongodb/brew/mongodb-database-tools"
 brew "teamookla/speedtest/speedtest"
 
 cask "battle-net"
