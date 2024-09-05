@@ -78,6 +78,7 @@ mas 'Pixelmator Pro', id: 1289583905
 mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
+mas 'Fantastical - Calendar', id: 975937182
 
 # Editor Extensions
 vscode "bierner.markdown-mermaid"
