@@ -1,7 +1,7 @@
 This is my setup file for new Macs which includes all of my favourite tools for developing software and all of my favourite apps.
 
 ## Use It
-1. Download the [Brewfile](/Brewfile/raw) from this repository
+1. Download the [Brewfile](https://raw.githubusercontent.com/davidhariri/mac-config/main/Brewfile) from this repository
 2. Install [Homebrew](https://brew.sh)
 3. Run `brew bundle install` from the directory you downloaded the file to (cd ~/Downloads)
 
