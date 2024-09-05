@@ -44,6 +44,7 @@ brew "uv"
 brew "ruff"
 
 # Applications
+cask "1password"
 cask "arc"
 cask "battle-net"
 cask "chatgpt"
@@ -66,7 +67,6 @@ cask "spotify"
 cask "tableplus"
 cask "visual-studio-code"
 
-mas '1Password 7 - Password Manager', id: 1333542190
 mas '1Password for Safari', id: 1569813296
 mas 'Things', id: 904280696
 mas 'Xcode', id: 497799835
