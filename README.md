@@ -1,4 +1,3 @@
-# Brewfile
 This is my setup file for new Macs which includes all of my favourite tools for developing software and all of my favourite apps.
 
 ## Use It
