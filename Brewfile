@@ -32,6 +32,8 @@ brew "zlib"
 brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
+brew "uv"
+brew "ruff"
 
 cask "arc"
 cask "battle-net"
