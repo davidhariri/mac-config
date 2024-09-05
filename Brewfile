@@ -33,6 +33,7 @@ brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
 
+cask "arc"
 cask "battle-net"
 cask "chatgpt"
 cask "cleanshot"
