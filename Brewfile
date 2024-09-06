@@ -22,6 +22,7 @@ brew "zlib"
 brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
+brew "visual-studio-code"
 
 # Services
 brew "opensearch", restart_service: true
