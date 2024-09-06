@@ -22,7 +22,6 @@ brew "zlib"
 brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
-brew "visual-studio-code"
 
 # Services
 brew "opensearch", restart_service: true
@@ -82,16 +81,3 @@ mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
 mas 'Fantastical - Calendar', id: 975937182
-
-# Editor Extensions
-vscode "bierner.markdown-mermaid"
-vscode "gimenete.github-linker"
-vscode "github.copilot"
-vscode "github.copilot-chat"
-vscode "ms-python.black-formatter"
-vscode "ms-python.debugpy"
-vscode "ms-python.pylint"
-vscode "ms-python.python"
-vscode "tamasfe.even-better-toml"
-vscode "waderyan.gitblame"
-vscode "wholroyd.jinja"
