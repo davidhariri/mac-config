@@ -21,7 +21,7 @@ brew "zlib"
 brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
-brew "iterm2"
+brew "llm"
 
 # Services
 brew "opensearch", restart_service: true
@@ -42,7 +42,7 @@ brew "pyenv-virtualenv"
 brew "python"
 brew "poetry"
 brew "uv"
-brew "ruff"
+rew "ruff"
 
 # Applications
 cask "1password"
@@ -70,7 +70,7 @@ cask "sketch"
 cask "screen-studio"
 cask "charles"
 cask "doppler"
-cask "font-0xproto"
+cask "font-0xproto-nerd-font"
 
 mas '1Password for Safari', id: 1569813296
 mas 'Things', id: 904280696
