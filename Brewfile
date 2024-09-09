@@ -42,7 +42,7 @@ brew "pyenv-virtualenv"
 brew "python"
 brew "poetry"
 brew "uv"
-rew "ruff"
+brew "ruff"
 
 # Applications
 cask "1password"
