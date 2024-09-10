@@ -71,7 +71,6 @@ cask "screen-studio"
 cask "charles"
 cask "doppler"
 cask "font-0xproto-nerd-font"
-cask "notion"
 
 mas '1Password for Safari', id: 1569813296
 mas 'Things', id: 904280696
@@ -83,3 +82,4 @@ mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
 mas 'Fantastical - Calendar', id: 975937182
+mas 'Drafts', id: 1435957248
