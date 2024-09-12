@@ -8,10 +8,11 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/david/.oh-my-zsh"
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+export PATH="/usr/local/opt/zig/bin:$PATH"
 
-alias plz=./plz
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/davidhariri/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -79,10 +80,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-    git
-    macos
-)
+plugins=(git, zsh-autosuggestions, zsh-completions, zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,13 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-export PATH="/usr/local/homebrew/opt/libxml2/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completionexport MODULAR_HOME="/Users/david/.modular"
-export PATH="/Users/david/.modular/pkg/packages.modular.com_mojo/bin:$PATH"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
