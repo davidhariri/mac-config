@@ -55,7 +55,6 @@ cask "couleurs"
 cask "cursor"
 cask "discord"
 cask "docker"
-cask "mimestream"
 cask "netnewswire"
 cask "ngrok"
 cask "reflect"
@@ -71,6 +70,7 @@ cask "screen-studio"
 cask "charles"
 cask "doppler"
 cask "font-0xproto-nerd-font"
+cask "superhuman"
 
 mas '1Password for Safari', id: 1569813296
 mas 'Things', id: 904280696
