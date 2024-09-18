@@ -46,7 +46,6 @@ brew "ruff"
 
 # Applications
 cask "1password"
-cask "arc"
 cask "battle-net"
 cask "chatgpt"
 cask "cleanshot"
@@ -57,8 +56,6 @@ cask "discord"
 cask "docker"
 cask "netnewswire"
 cask "ngrok"
-cask "reflect"
-cask "selfcontrol"
 cask "sf-symbols"
 cask "signal"
 cask "slack"
@@ -70,16 +67,11 @@ cask "screen-studio"
 cask "charles"
 cask "doppler"
 cask "font-0xproto-nerd-font"
-cask "superhuman"
 
 mas '1Password for Safari', id: 1569813296
-mas 'Things', id: 904280696
 mas 'Xcode', id: 497799835
-mas 'Flow', id: 1423210932
 mas 'TestFlight', id: 899247664
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
-mas 'Fantastical - Calendar', id: 975937182
-mas 'Drafts', id: 1435957248
