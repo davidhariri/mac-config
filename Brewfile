@@ -51,23 +51,24 @@ cask "chatgpt"
 cask "cleanshot"
 cask "cloudflare-warp"
 cask "couleurs"
-cask "cursor"
 cask "discord"
 cask "docker"
+cask "telegram"
 cask "netnewswire"
 cask "ngrok"
 cask "sf-symbols"
-cask "signal"
 cask "slack"
 cask "rectangle"
-cask "spotify"
 cask "tableplus"
 cask "sketch"
 cask "screen-studio"
 cask "charles"
 cask "doppler"
 cask "font-0xproto-nerd-font"
+cask "visual-studio-code"
+cask "zoom"
 
+# Mac App Store
 mas '1Password for Safari', id: 1569813296
 mas 'Xcode', id: 497799835
 mas 'TestFlight', id: 899247664
