@@ -26,7 +26,7 @@ brew "llm"
 # Services
 brew "opensearch", restart_service: true
 brew "ollama", restart_service: true
-brew "mongodb-community@7.0"
+brew "mongodb-community", restart_service: true
 brew "postgresql@14", restart_service: true
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
@@ -65,8 +65,9 @@ cask "screen-studio"
 cask "charles"
 cask "doppler"
 cask "font-0xproto-nerd-font"
-cask "visual-studio-code"
+cask "cursor"
 cask "zoom"
+cask "selfcontrol"
 
 # Mac App Store
 mas '1Password for Safari', id: 1569813296
@@ -76,3 +77,4 @@ mas 'Pixelmator Pro', id: 1289583905
 mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
+mas 'Flow - Focus & Pomodoro Timer', id: 1423210932
