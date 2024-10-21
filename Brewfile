@@ -22,11 +22,17 @@ brew "zsh"
 brew "teamookla/speedtest/speedtest"
 brew "mongodb/brew/mongodb-database-tools"
 brew "llm"
+brew "antigen"
+brew "iterm2"
 
 # Services
 brew "opensearch", restart_service: true
 brew "ollama", restart_service: true
+<<<<<<< HEAD
 brew "mongodb-community", restart_service: true
+=======
+brew "mongodb-community"
+>>>>>>> e2f49f9ceb0d963f2088a31778d4a0090d03c8fc
 brew "postgresql@14", restart_service: true
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
@@ -51,7 +57,6 @@ cask "chatgpt"
 cask "cleanshot"
 cask "cloudflare-warp"
 cask "couleurs"
-cask "discord"
 cask "docker"
 cask "telegram"
 cask "netnewswire"
@@ -68,6 +73,8 @@ cask "font-0xproto-nerd-font"
 cask "cursor"
 cask "zoom"
 cask "selfcontrol"
+cask "mimestream"
+cask "signal"
 
 # Mac App Store
 mas '1Password for Safari', id: 1569813296
@@ -78,3 +85,5 @@ mas 'Save to Pocket', id: 1477385213
 mas 'Userscripts', id: 1463298887
 mas 'JSON Peep for Safari', id: 1458969831
 mas 'Flow - Focus & Pomodoro Timer', id: 1423210932
+mas 'ia Writer', id: 775737590
+mas 'Dropmark Menubar', id: 554314609
