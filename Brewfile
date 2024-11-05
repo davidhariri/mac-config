@@ -28,11 +28,7 @@ brew "iterm2"
 # Services
 brew "opensearch", restart_service: true
 brew "ollama", restart_service: true
-<<<<<<< HEAD
 brew "mongodb-community", restart_service: true
-=======
-brew "mongodb-community"
->>>>>>> e2f49f9ceb0d963f2088a31778d4a0090d03c8fc
 brew "postgresql@14", restart_service: true
 brew "rabbitmq", restart_service: true
 brew "redis", restart_service: true
@@ -75,6 +71,7 @@ cask "zoom"
 cask "selfcontrol"
 cask "mimestream"
 cask "signal"
+cask "zed"
 
 # Mac App Store
 mas '1Password for Safari', id: 1569813296
@@ -87,3 +84,5 @@ mas 'JSON Peep for Safari', id: 1458969831
 mas 'Flow - Focus & Pomodoro Timer', id: 1423210932
 mas 'ia Writer', id: 775737590
 mas 'Dropmark Menubar', id: 554314609
+mas '1Blocker', id: 1365531024
+mas 'Things 3', id: 904280696
