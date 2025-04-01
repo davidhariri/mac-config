@@ -8,7 +8,6 @@ tap "teamookla/speedtest"
 brew "xz"
 brew "webp"
 brew "awscli"
-brew "docker"
 brew "flyctl"
 brew "gh"
 brew "git"
@@ -33,17 +32,11 @@ brew "pyenv-virtualenv"
 brew "python"
 brew "poetry"
 brew "uv"
-brew "ruff"
+cask "docker"
+brew "nvim"
 
 # Services
-brew "opensearch", restart_service: true
 brew "ollama", restart_service: true
-brew "mongodb-community", restart_service: true
-brew "postgresql@14", restart_service: true
-brew "rabbitmq", restart_service: true
-brew "redis", restart_service: true
-brew "elastic/tap/elasticsearch-full", restart_service: true
-cask "clickhouse"
 
 # Productivity
 brew "teamookla/speedtest/speedtest"
@@ -63,10 +56,9 @@ cask "doppler"
 cask "font-0xproto-nerd-font"
 cask "cursor"
 cask "zoom"
-cask "mimestream"
 cask "chatgpt"
 cask "ollamac"
-cask "spotify"
+cask "superwhisper"
 
 # Mac App Store
 mas '1Password for Safari', id: 1569813296
