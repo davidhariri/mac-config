@@ -23,7 +23,7 @@ brew "zsh"
 brew "mongodb/brew/mongodb-database-tools"
 brew "llm"
 brew "antigen"
-brew "iterm2"
+cask "iterm2"
 cask "ngrok"
 brew "node"
 brew "pnpm"
@@ -40,7 +40,6 @@ brew "ollama", restart_service: true
 
 # Productivity
 brew "teamookla/speedtest/speedtest"
-cask "1password"
 cask "cleanshot"
 cask "cloudflare-warp"
 cask "couleurs"
@@ -55,13 +54,12 @@ cask "charles"
 cask "doppler"
 cask "font-0xproto-nerd-font"
 cask "cursor"
-cask "zoom"
+# cask "zoom"
 cask "chatgpt"
 cask "ollamac"
 cask "superwhisper"
 
 # Mac App Store
-mas '1Password for Safari', id: 1569813296
 mas 'Xcode', id: 497799835
 mas 'TestFlight', id: 899247664
 mas 'JSON Peep for Safari', id: 1458969831
