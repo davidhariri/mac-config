@@ -1,7 +1,4 @@
 # Taps
-tap "elastic/tap"
-tap "homebrew/services"
-tap "mongodb/brew"
 tap "teamookla/speedtest"
 
 # Developer Tools
@@ -33,6 +30,7 @@ brew "python"
 brew "poetry"
 brew "uv"
 cask "docker"
+cask "timing"
 brew "nvim"
 
 # Services
@@ -60,9 +58,6 @@ cask "ollamac"
 cask "superwhisper"
 
 # Mac App Store
-mas 'Xcode', id: 497799835
-mas 'TestFlight', id: 899247664
 mas 'JSON Peep for Safari', id: 1458969831
-mas 'ia Writer', id: 775737590
 mas 'Instapaper', id: 288545208
 mas 'Infuse', id: 1136220934
