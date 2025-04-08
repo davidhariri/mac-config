@@ -35,6 +35,7 @@ brew "nvim"
 cask "visual-studio-code"
 # Services
 brew "ollama", restart_service: true
+cask "cursor"
 
 # Productivity
 brew "teamookla/speedtest/speedtest"
